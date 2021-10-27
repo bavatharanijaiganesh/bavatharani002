@@ -1,14 +1,17 @@
 <template>
-  <heading/>
-  <h1>this is app component page</h1>
+  <div id="app">
+    <router-view/>
+  </div>
+  
 </template>
 
 <script>
-import heading from "./components/heading.vue";
+
+
 export default {
-name: 'App',
+  name: 'App',
   components: {
-    heading
+    
   }
 }
 </script>
