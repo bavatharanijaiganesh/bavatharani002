@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    <router-view/>
+  <div>
+    <router-link to ="/home">home</router-link><br/>
+	<router-link to ="/nested">nested</router-link>
   </div>
-  
+  <router-view/>
+  </div>
 </template>
 
 <script>
